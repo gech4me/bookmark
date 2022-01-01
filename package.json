@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "learn-tailwindcss",
   "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss build -i src/app.css -o dist/app.css",
+    "watch": "tailwindcss  -w src/app.css -o dist/app.css"
+  },
   "license": "MIT",
   "devDependencies": {
     "tailwindcss": "^3.0.8"
