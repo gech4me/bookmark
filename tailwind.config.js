@@ -1,7 +1,7 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extends: {
+    extend: {
       colors: {
         "bookmark-purple": "#5267DF",
         "bookmark-red": "#FA5959",
